@@ -26,7 +26,7 @@ Code Execution:
     - Declare and initialize variable "article": ``` article = Article(url)```
     - Download article to enable data extraction and manipulation: ``` article.download()```
     - Parse various article information: ``` article.parse()```
-  - Extract Article Characteristics:
+  - Extracting Article Characteristics:
     - Create a .txt file and append the text information: ``` 1. file = open("article.txt", "a") | 2. file.write(article.text)```
     - Include .txt file name in for loop (lines xx-xx) to acquire article word count
     
