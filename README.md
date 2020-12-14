@@ -1,6 +1,11 @@
 # profChiou-Web-Scraper
 News article web scraping script for professor Chiou's research project on the impact of the 2016 Facebook ban, as it pertains to the anti-vaxx movement. 
 
+.PDF File Notes:
+  - Articles appearance is adjusted from original site to accommodate .PDF format
+     
+     * Before .PDF export, site HTML was edited to remove any superfluous elements that would distract from the article text (e.g. text-wrapped Google Ads, sidebar navigation/ads, site masthead, etc.).
+
 Code Notes:
   - If article listed in spreadsheet is not found online: ```#SourceNotFound ```
 
