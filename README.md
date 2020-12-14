@@ -1,6 +1,13 @@
 # profChiou-Web-Scraper
 News article web scraping script for professor Chiou's research project on the impact of the 2016 Facebook ban, as it pertains to the anti-vaxx movement. 
 
+Code Notes:
+  - If article listed in spreadsheet is not found online: ```#SourceNotFound ```
+
+  - If article is found, but removed from source site: ``` #SourceRemovedFromSite ```
+
+
+
 Library/Module Installation:
   - Newspaper - ```pip install newspaper```
 
